@@ -1,7 +1,14 @@
+
+
 .container{
     width: 100vw;
     height: 100vh;
     background-color: rgb(196, 246, 255);
+    max-width: 500px;
+    height: 400px;
+    margin: auto;
+
+
 }
 *{
     margin: 0;
@@ -9,13 +16,13 @@
 
 }
 .app{
-    width: 60%;
-    height: 75%;
+    width: 100%;
+    height: fit-content;
     margin: auto;
     background: linear-gradient(135deg , rgb(149, 149, 212), rgb(0, 98, 255));
     border-radius: 12px;
-    max-width: 395px;
-    max-height: 515px;
+max-width: 300px;
+
     overflow: auto;
 }
 .container{
@@ -36,7 +43,7 @@
 input {
     padding-left: 8px;
     border-radius: 23px;
-     height: 45px;
+     height: 40px;
     max-height: 45px ;
     width: 75%;
     background: transparent;
@@ -64,9 +71,13 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 16px;
+width: 100%;
 
 
+}
+.sun {
+    width: 50%;
 }
 .reading {
     width: 165px;
@@ -80,6 +91,7 @@ button {
 .bottom{
     display: flex;
     justify-content: space-around;
+    bottom: 100%;
 }
 
 
@@ -98,5 +110,12 @@ button {
     color :white
 }
 .humidity{
-    margin-top:14px;
+    margin-top:10px;
+}
+.wind{
+width: 50%;
+
+}
+.app{
+    
 }
